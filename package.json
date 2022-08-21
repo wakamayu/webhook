@@ -1,0 +1,20 @@
+{
+  "name": "webhook",
+  "version": "0.1",
+  "description": "Stage task mergue request",
+  "main": "./.bin/command.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos Enrique Peña Andres",
+  "license": "ISC",
+  "bin": {
+    "webhook": "./.bin/command.js"
+  },
+  "dependencies": {
+    "@gitbeaker/node": "34.2.0",
+    "axios": "^0.22.0",
+    "qs": "6.10.1",
+    "yargs": "17.2.1"
+  }
+}
